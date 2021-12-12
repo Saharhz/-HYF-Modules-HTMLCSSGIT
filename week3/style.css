@@ -135,6 +135,8 @@ font-family: var(--Single-font);
 .containerII .col-md-5 {
     padding-top: 4px;
     padding-left: 4em;
+    padding-bottom: 4em;
+    margin-bottom: 2px;
 }
 
 .containerII .col-md-5 h2 {
@@ -143,8 +145,17 @@ font-family: var(--Single-font);
     font-size: 10vmin;
 }
 
-.containerII .col-md-5 h3:hover {
-    background-color: white
+.containerII .col-md-5 .rect {
+    position: relative;
+    background-color: rgb(247, 238, 223);
+    width: 30em;
+    height: 6rem;
+    margin: 2vmin;
+    padding-top: 1.2rem;
+    border-bottom: black;
+}
+.containerII .col-md-5 .rect:hover {
+    background-color: white;
 }
 
 .containerII .col-md-5 h3 {
@@ -227,6 +238,13 @@ font-family: var(--Single-font);
 
 .section-2 .cover p {
     padding-bottom: 2em;
+}
+
+.section-2 .container .card {
+    display: inline-block;
+    padding-left: 0;
+    margin-bottom: 40px;
+    margin-left: none;
 }
 
 .section-3 {
